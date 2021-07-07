@@ -14,6 +14,6 @@ const allNumbers = num1.concat(num2).concat([5]).concat(num3);   ///---concat a 
 // console.log(allNumbers2);
 // console.log(...num1);  //--access all array element --//
 
-const allNumbers3 = [...num1,...num2,...num3];    // ---(...num1,...num2,...num3 = means acces all array element)   & then store in a array [...num1,...num2,...num3]---/
+const allNumbers3 = [...num1,...num2,5,...num3];    // ---(...num1,...num2,...num3 = means acces all array element)   & then store in a array [...num1,...num2,...num3]---/
 console.log(allNumbers3);
 
