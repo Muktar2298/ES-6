@@ -32,6 +32,21 @@ const isZeroFasly =
 // console.log(isZeroFasly);
 
 // 4.   (Nester ternary --//)
+// const isAge = 21;
+// if (isAge <= 13) {
+//   console.log("I'm a PSC Candidate");
+// } else if (isAge <= 16) {
+//   console.log("I'm a SCC Candidate");
+// } else if (isAge <= 18) {
+//   console.log("I'm a HSC Candidate");
+// } else if (isAge == 21) {
+//   console.log("I'm a University Candidate'");
+// } else {
+//   console.log("I'm Exploring New Things");
+// }
+
+
+
 const isAge = 21;
 let myEducation =
   isAge <= 13
